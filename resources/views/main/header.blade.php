@@ -48,7 +48,7 @@
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#donation" @else href="/#donation" @endif>Donation</a></li>
                         {{-- <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#testimonials" @else href="/#testimonials" @endif>Testimonials</a></li> --}}
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#faq" @else href="/#faq" @endif>Faq</a></li>
-                        <li class="scrollToLink"><a @if target="_blank" (Route::current()->getName() == 'welcome') href="https://sfiloveinaction.org/blog/posts/" @else href="https://sfiloveinaction.org/blog/posts/" @endif>Blog</a></li>
+                        <li class="scrollToLink"><a target="_blank" @if (Route::current()->getName() == 'welcome') href="https://sfiloveinaction.org/blog/posts/" @else href="https://sfiloveinaction.org/blog/posts/" @endif>Blog</a></li>
                     </ul>
                 </nav><!-- /.main-header__nav -->
                 <div class="mobile-nav__btn mobile-nav__toggler">
