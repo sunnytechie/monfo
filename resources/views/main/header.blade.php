@@ -46,7 +46,7 @@
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#about" @else href="/#about" @endif>About</a></li>
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#services" @else href="/#services" @endif>Services</a></li>
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#donation" @else href="/#donation" @endif>Donation</a></li>
-                        <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#testimonials" @else href="/#testimonials" @endif>Testimonials</a></li>
+                        {{-- <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#testimonials" @else href="/#testimonials" @endif>Testimonials</a></li> --}}
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="#faq" @else href="/#faq" @endif>Faq</a></li>
                         <li class="scrollToLink"><a @if (Route::current()->getName() == 'welcome') href="https://sfiloveinaction.org/blog/posts/" @else href="https://sfiloveinaction.org/blog/posts/" @endif>Blog</a></li>
                     </ul>
