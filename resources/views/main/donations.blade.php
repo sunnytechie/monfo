@@ -17,7 +17,7 @@
 
                             <div class="donate-page__form__amount__box">
                                 <span class="donate-page__form__amount__sign">₦</span>
-                                <input type="text" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-page__form__amount__input" autofocus>
+                                <input type="text" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-page__form__amount__input">
                             </div><!-- /.donate-page__form__amount__box -->
                         </div><!-- /.donate-page__form__amount -->
 
