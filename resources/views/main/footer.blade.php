@@ -51,7 +51,7 @@
                     <ul class="list-unstyled footer-widget__links">
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="donate.html">Support</a></li>
-                        <li><a href="{{ route('volunteer') }}">Volunteer</a></li>
+                        <li><a href="{{ route('training') }}">Register</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->

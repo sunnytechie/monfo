@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\WelcomeController::class, 'index'])->name('welcome');
 Route::get('/donation', [App\Http\Controllers\WelcomeController::class, 'donation'])->name('donation');
-Route::get('/volunteer', [App\Http\Controllers\WelcomeController::class, 'volunteer'])->name('volunteer');
+Route::post('/donation', [App\Http\Controllers\WelcomeController::class, 'donationPayment'])->name('donation.payment');
+
+//Registeration
+Route::get('/training/registeraion', [App\Http\Controllers\WelcomeController::class, 'register'])->name('training');
+Route::post('/training/registeraion', [App\Http\Controllers\WelcomeController::class, 'registerTrainings'])->name('training.register');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

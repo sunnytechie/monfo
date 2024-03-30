@@ -22,20 +22,13 @@
                         <i class="fas fa-exclamation-triangle"></i>
                         <h5 class="donate-page__notice__text">Notice: <span>Test mode is enabled. While in test mode no live donations are processed.</span></h5>
                     </div><!-- /.donate-page__notice -->
-                    <form action="#" class="donate-page__form">
+                    <form action="{{ route('donation.payment') }}" method="POST" class="donate-page__form">
+                        @csrf
                         <div class="donate-page__form__amount">
                             <div class="donate-page__form__amount__box">
                                 <span class="donate-page__form__amount__sign">₦</span>
-                                <input type="text" value="50000" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-page__form__amount__input" autofocus>
+                                <input type="text" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-page__form__amount__input" autofocus>
                             </div><!-- /.donate-page__form__amount__box -->
-                            <div class="donate-page__form__amount__buttons">
-                                <button type="button" class="donate-page__form__amount__btn donate-page__form__amount__btn--amount">₦<span class="donate-page__form__amount__btn__text">10000</span> </button>
-                                <button type="button" class="donate-page__form__amount__btn donate-page__form__amount__btn--amount active">₦<span class="donate-page__form__amount__btn__text">50000</span></button>
-                                <button type="button" class="donate-page__form__amount__btn donate-page__form__amount__btn--amount">₦<span class="donate-page__form__amount__btn__text">100000</span></button>
-                                <button type="button" class="donate-page__form__amount__btn donate-page__form__amount__btn--amount">₦<span class="donate-page__form__amount__btn__text">200000</span></button>
-                                <button type="button" class="donate-page__form__amount__btn donate-page__form__amount__btn--amount">₦<span class="donate-page__form__amount__btn__text">500000</span></button>
-                                {{-- <button type="button" class="donate-page__form__amount__btn">Custom amount</button> --}}
-                            </div><!-- /.donate-page__form__amount__buttons -->
                         </div><!-- /.donate-page__form__amount -->
                         <div class="donate-page__form__payment">
                             <h3 class="donate-page__form__title">Select Payment Method</h3><!-- /.donate-page__form__title -->

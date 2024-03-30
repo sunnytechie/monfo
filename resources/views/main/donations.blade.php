@@ -1,164 +1,78 @@
 <section class="donations-four section-space" id="donation">
-    <div class="donations-four__bg" style="background-image: url(assets/images/donations/donation-bg-4-1.jpg);"></div><!-- /.donations-four__bg -->
+    {{-- <div class="donations-four__bg" style="background-image: url(assets/images/donations/donation-bg-4-1.jpg);"></div><!-- /.donations-four__bg --> --}}
     <div class="container">
-        <div class="sec-title sec-title--two sec-title--center">
-            <div class="sec-title__top">
-                <img src="assets/images/shapes/sec-title-s-1-1.png" alt="help and donate">
-                <h6 class="sec-title__tagline sec-title--center">help and donate</h6><!-- /.sec-title__tagline -->
-            </div><!-- /.sec-title__top -->
-            <h3 class="sec-title__title">We Enrich Lives by Mentoring <br> and Training Women</h3><!-- /.sec-title__title -->
-        </div><!-- /.sec-title -->
-        <div class="row gutter-y-30">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-                <div class="donation-card-four">
-                    <a href="#" class="donation-card-four__image">
-                        <img src="assets/images/donations/donation-4-1.jpg" alt="Support our medical trainings and outreach">
-                        <div class="donation-card-four__category">Medical</div><!-- /.donation-card-four__category -->
-                    </a><!-- /.donation-card-four__image -->
-                    <div class="donation-card-four__content">
-                        <div class="donation-card-four__show">
-                            <h3 class="donation-card-four__title"><a href="#">Support our medical trainings and outreach</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <p class="donation-card-four__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><!-- /.donation-card-four__text -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">90%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__show -->
-                        <div class="donation-card-four__hover">
-                            <h3 class="donation-card-four__title"><a href="#">Support our medical trainings and outreach</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <a href="#" class="donation-card-four__btn cleenhearts-btn-two">donate now</a>
-                            <!-- /.donation-card-four__btn -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">90%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__hover -->
-                    </div><!-- /.donation-card-four__content -->
-                </div><!-- /.donation-card-four -->
-            </div><!-- /.col-lg-4 col-md-6 -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="donate-page__content">
+                    {{-- <h2 class="donate-page__title text-center">Donate Now</h2><!-- /.donate-page__title --> --}}
+                    <p class="donate-page__text text-center">Your donation will help us to provide the necessary support to the Mommy Nches Foundation. We are committed to making a difference in the lives of every woman and young lady in the society.</p><!-- /.donate-page__text -->
+                    <div class="donate-page__notice">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h5 class="donate-page__notice__text">Notice: <span>Test mode is enabled. While in test mode no live donations are processed.</span></h5>
+                    </div><!-- /.donate-page__notice -->
 
-            {{-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-                <div class="donation-card-four">
-                    <a href="#" class="donation-card-four__image">
-                        <img src="assets/images/donations/donation-4-1.jpg" alt="Suport our education trainings for women.">
-                        <div class="donation-card-four__category">Educational Program</div><!-- /.donation-card-four__category -->
-                    </a><!-- /.donation-card-four__image -->
-                    <div class="donation-card-four__content">
-                        <div class="donation-card-four__show">
-                            <h3 class="donation-card-four__title"><a href="#">Suport our education trainings for women.</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <p class="donation-card-four__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><!-- /.donation-card-four__text -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">70%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__show -->
-                        <div class="donation-card-four__hover">
-                            <h3 class="donation-card-four__title"><a href="#">Suport our education trainings for women.</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <a href="#" class="donation-card-four__btn cleenhearts-btn-two">donate now</a>
-                            <!-- /.donation-card-four__btn -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">70%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__hover -->
-                    </div><!-- /.donation-card-four__content -->
-                </div><!-- /.donation-card-four -->
-            </div><!-- /.col-lg-4 col-md-6 -->
+                    <form action="{{ route('donation.payment') }}" method="POST" class="donate-page__form">
+                        @csrf
+                        <div class="donate-page__form__amount">
 
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-                <div class="donation-card-four">
-                    <a href="#" class="donation-card-four__image">
-                        <img src="assets/images/donations/donation-4-1.jpg" alt="Support the minsitry of Sisters' Fellowship">
-                        <div class="donation-card-four__category">Ministry</div><!-- /.donation-card-four__category -->
-                    </a><!-- /.donation-card-four__image -->
-                    <div class="donation-card-four__content">
-                        <div class="donation-card-four__show">
-                            <h3 class="donation-card-four__title"><a href="#">Support the minsitry of Sisters' Fellowship</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <p class="donation-card-four__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><!-- /.donation-card-four__text -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">50%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__show -->
-                        <div class="donation-card-four__hover">
-                            <h3 class="donation-card-four__title"><a href="#">Support the minsitry of Sisters' Fellowship</a></h3>
-                            <!-- /.donation-card-four__title -->
-                            <a href="#" class="donation-card-four__btn cleenhearts-btn-two">donate now</a>
-                            <!-- /.donation-card-four__btn -->
-                            <div class="donation-card-four__progress">
-                                <div class="progress-box">
-                                    <div class="progress-box__bar">
-                                        <div class="progress-box__number count-text">50%</div>
-                                        <div class="progress-box__bar__inner count-bar" data-percent='90%'></div>
-                                    </div><!-- /.progress-box__bar -->
-                                </div><!-- /.progress-box -->
-                                <div class="donation-card-four__progress__bottom">
-                                    <h5 class="donation-card-four__progress__title">Raised ₦<span>80,050</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                    <h5 class="donation-card-four__progress__title">goal ₦<span>90,000</span></h5>
-                                    <!-- /.donation-card-four__progress__title -->
-                                </div><!-- /.donation-card-four__progress__bottom -->
-                            </div><!-- /.donation-card-four__progress -->
-                        </div><!-- /.donation-card-four__hover -->
-                    </div><!-- /.donation-card-four__content -->
-                </div><!-- /.donation-card-four -->
-            </div><!-- /.col-lg-4 col-md-6 --> --}}
+                            <div class="donate-page__form__amount__box">
+                                <span class="donate-page__form__amount__sign">₦</span>
+                                <input type="text" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-page__form__amount__input" autofocus>
+                            </div><!-- /.donate-page__form__amount__box -->
+                        </div><!-- /.donate-page__form__amount -->
 
+                        {{-- <div class="donate-page__form__payment">
+                            <h3 class="donate-page__form__title">Select Payment Method</h3><!-- /.donate-page__form__title -->
+                            <div class="donate-page__form__payment__method">
+                                <div class="donate-page__form__payment__method__item custom-radio">
+                                    <input type="radio" id="account" name="checkout-info" class="custom-radio__input" checked>
+                                    <label for="account" class="custom-radio__title">Online donation</label>
+                                </div>
+                                <div class="donate-page__form__payment__method__item custom-radio">
+                                    <input type="radio" id="ship" name="checkout-info" class="custom-radio__input">
+                                    <label for="ship" class="custom-radio__title">offline donation</label>
+                                </div>
+                            </div>
+                        </div><!-- /.donate-page__form__payment --> --}}
+
+                        <div class="donate-page__form__info form-one">
+                            <h3 class="donate-page__form__info__title donate-page__form__title">Personal Info</h3><!-- /.donate-page__form__title -->
+                            <div class="row gutter-y-30">
+                                <div class="col-xl-6">
+                                    <div class="form-one__control">
+                                        <input type="text" name="first_name" id="first_name" placeholder="First name" class="form-one__control__input">
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.col-xl-6 -->
+                                <div class="col-xl-6">
+                                    <div class="form-one__control">
+                                        <input type="text" name="last_name" id="last_name" placeholder="Last name" class="form-one__control__input">
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.col-xl-6 -->
+                                <div class="col-md-6">
+                                    <div class="form-one__control">
+                                        <input type="email" name="email" id="email" placeholder="Email address" class="form-one__control__input">
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.col-12 -->
+                                <div class="col-md-6">
+                                    <div class="form-one__control">
+                                        <input type="tel" name="phone" id="phone" placeholder="Mobile" class="form-one__control__input">
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.col-12 -->
+                                <div class="col-12">
+                                    <div class="form-one__control">
+                                        <button type="submit" class="cleenhearts-btn">
+                                            <span class="cleenhearts-btn__icon-box">
+                                                <span class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></span>
+                                            </span>
+                                            <span class="cleenhearts-btn__text">donate now</span>
+                                        </button>
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.col-12 -->
+                            </div><!-- /.row -->
+                        </div><!-- /.donate-page__form__info -->
+                    </form><!-- /.donate-page__form -->
+                </div><!-- /.donate-page__content -->
+            </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.donations-four section-space -->

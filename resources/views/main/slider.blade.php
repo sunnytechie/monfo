@@ -61,12 +61,12 @@
                 <!-- /.main-slider-four__title -->
                 <div class="main-slider-four__content__inner">
                     <p class="main-slider-four__text">We desire and encourage this generation to be self employed, increased source of income among our youth and eradicate poverty in our society.</p><!-- /.main-slider-four__text -->
-                    <a href="{{ route('volunteer') }}" class="main-slider-four__btn hide-from-mobile">
+                    <a href="{{ route('training') }}" class="main-slider-four__btn hide-from-mobile">
                         <span class="cleenhearts-one-icon-up-right-arrow"></span>
                     </a><!-- /.main-slider-four__btn -->
                 </div><!-- /.main-slider-four__content__inner -->
                 <div class="only-mobile mt-4">
-                    <a href="{{ route('volunteer') }}" class="cleenhearts-btn-two">
+                    <a href="{{ route('training') }}" class="cleenhearts-btn-two">
                         <span class="icon-donate"></span>
                         Register now
                     </a><!-- /.thm-btn main-header__btn -->
