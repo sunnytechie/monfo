@@ -64,9 +64,9 @@
                         <span class="icon-trolley"></span>
                     </a>
                 </div><!-- /.main-header__cart --> --}}
-                <a href="{{ route('donation') }}" class="main-header__btn">
+                <a href="{{ route('volunteer') }}" class="main-header__btn">
                     <span class="icon-donate"></span>
-                    Donate now
+                    Register now
                 </a><!-- /.thm-btn main-header__btn -->
             </div><!-- /.main-header__right -->
         </div><!-- /.main-header__inner -->

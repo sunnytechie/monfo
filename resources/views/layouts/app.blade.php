@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rev Mrs. Nches Iredu || Foundation || Fundraise || Project</title>
+    <title>Rev Mrs. Nches Iredu || Foundation || Workshop || Women empowerment || Project</title>
 
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/monfo-removebg.png') }}" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/monfo-removebg.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/monfo-removebg.png') }}" />
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
-    <meta name="description" content="Rev. Mrs Nches Iredu the International President and founder of the Sisters' Fellowship International - fundraising, nonprofit, NGO, donations" />
+    <meta name="description" content="Rev. Mrs Nches Iredu Foundation || Women Empowerment || Workshops || Trainings || Serminals and Projects." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,15 +75,15 @@
 
         @include('main.mobile')
 
-        {{-- 
+        {{--
         @include('snippets.main.popup_search')
         <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
             <span class="scroll-to-top__text">back top</span>
             <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
         </a>
         --}}
-        
-        @include('main.aside') 
+
+        @include('main.aside')
 
         <a href="#" data-target="html" class="scroll-to-target scroll-to-top scroll-to-top--two">
             <span class="scroll-to-top__text">back top</span>

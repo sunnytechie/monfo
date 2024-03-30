@@ -1,3 +1,11 @@
+<style>
+    .about-info-three__image img {
+        height: 254px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+</style>
 <section class="about-info-three section-space">
     <div class="container">
         <div class="about-info-three__inner">
@@ -16,7 +24,7 @@
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
                         <div class="about-info-three__image">
-                            <img src="assets/images/resources/about-info-3-1.jpg" alt="about-info">
+                            <img src="{{ asset('assets/images/interview-4835116_960_720.jpg') }}" alt="about-info">
                         </div><!-- /.about-info-three__image -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->

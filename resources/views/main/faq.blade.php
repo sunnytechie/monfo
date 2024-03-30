@@ -1,3 +1,11 @@
+<style>
+    .faq-two__image__inner img {
+        width: 272px;
+        height: 497px;
+        object-fit: cover;
+
+    }
+</style>
 <section class="faq-two section-space" id="faq">
     <div class="faq-two__bg" style="background-image: url(assets/images/shapes/faq-shape-bg-2-1.png);"></div>
     <!-- /.faq-two__bg -->
@@ -13,10 +21,10 @@
             <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
                 <div class="faq-two__image">
                     <div class="faq-two__image__inner">
-                        <img src="assets/images/faq/faq-2-1.jpg" alt="faq">
+                        <img src="{{ asset('assets/images/ics/ic1.jpg') }}" alt="faq">
                     </div><!-- /.faq-two__image__inner -->
                     <div class="faq-two__image__inner">
-                        <img src="assets/images/faq/faq-2-2.jpg" alt="faq">
+                        <img src="{{ asset('assets/images/ics/ic2.jpg') }}" alt="faq">
                     </div><!-- /.faq-two__image__inner -->
                     <div class="faq-two__image__border"></div><!-- /.faq-two__image__border -->
                 </div><!-- /.faq-two__image -->
@@ -50,7 +58,7 @@
                         </div><!-- /.accordian-title -->
                         <div class="accordion-content">
                             <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia, ex rem molestias numquam, asperiores eos rerum vel accusamus saepe omnis ut. Nisi natus, labore suscipit nam cupiditate officiis optio!</p>                            
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia, ex rem molestias numquam, asperiores eos rerum vel accusamus saepe omnis ut. Nisi natus, labore suscipit nam cupiditate officiis optio!</p>
                             </div><!-- /.accordian-content -->
                         </div>
                     </div><!-- /.accordian-item -->
@@ -66,11 +74,11 @@
                         </div><!-- /.accordian-title -->
                         <div class="accordion-content">
                             <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia, ex rem molestias numquam, asperiores eos rerum vel accusamus saepe omnis ut. Nisi natus, labore suscipit nam cupiditate officiis optio!</p>                            
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia, ex rem molestias numquam, asperiores eos rerum vel accusamus saepe omnis ut. Nisi natus, labore suscipit nam cupiditate officiis optio!</p>
                             </div><!-- /.accordian-content -->
                         </div>
                     </div><!-- /.accordian-item -->
-                    
+
                 </div>
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->

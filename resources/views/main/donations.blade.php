@@ -59,7 +59,7 @@
                 </div><!-- /.donation-card-four -->
             </div><!-- /.col-lg-4 col-md-6 -->
 
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+            {{-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                 <div class="donation-card-four">
                     <a href="#" class="donation-card-four__image">
                         <img src="assets/images/donations/donation-4-1.jpg" alt="Suport our education trainings for women.">
@@ -157,7 +157,8 @@
                         </div><!-- /.donation-card-four__hover -->
                     </div><!-- /.donation-card-four__content -->
                 </div><!-- /.donation-card-four -->
-            </div><!-- /.col-lg-4 col-md-6 -->
+            </div><!-- /.col-lg-4 col-md-6 --> --}}
+
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.donations-four section-space -->

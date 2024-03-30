@@ -1,9 +1,9 @@
 <section class="how-work-one section-space" id="how-work">
-    <div class="how-work-one__bg cleenhearts-jarallax" data-jarallax data-spedd="0.3" style="background-image: url(assets/images/backgrounds/how-work-bg-1-1.jpg);"></div>
+    <div class="how-work-one__bg cleenhearts-jarallax" data-jarallax data-spedd="0.3" style="background-image: url({{ asset('assets/images/foundation/front-view-woman-working-with-roller_52683-100074.jpg') }});"></div>
     <!-- /.how-work-one__bg -->
     <div class="container">
         <div class="how-work-one__content">
-            <a target="_blank" href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="how-work-one__play">
+            <a target="_blank" href="https://www.youtube.com/watch?v=BWCQIe0UeCc" class="how-work-one__play">
                 <i class="icon-play"></i>
                 <span></span>
                 <span></span>

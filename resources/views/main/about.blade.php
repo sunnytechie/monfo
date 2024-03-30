@@ -1,11 +1,18 @@
+<style>
+    .service-three__image img {
+        height: 195px;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>
 <section class="about-four section-space" id="about">
-    <div class="about-four__bg" style="background-image: url(assets/images/shapes/about-bg-shape-4-1.png);"></div><!-- /.about-four__bg -->
+    <div class="about-four__bg" style="background-image: url({{ asset('assets/images/mummynches.jpg') }});"></div><!-- /.about-four__bg -->
     <div class="about-four__inner-bg"></div><!-- /.about-four__inner-bg -->
     <div class="container">
         <div class="row gutter-y-50">
             <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
                 <div class="about-four__image">
-                    <img src="assets/images/about/about-4-1.jpg" alt="about">
+                    <img src="{{ asset('assets/images/mummynches.jpg') }}" alt="about">
                     <div class="about-four__experience">
                         <h3 class="about-four__experience__year">30 +</h3><!-- /.about-four__experience__year -->
                         <p class="about-four__experience__text">years of <br>
@@ -65,7 +72,7 @@
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
                     <div class="service-three__image">
-                        <img src="assets/images/services/service-3-1.jpg" alt="service">
+                        <img src="{{ asset('assets/images/book-1283865_1280.jpg') }}" alt="service">
                     </div><!-- /.service-three__image -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->

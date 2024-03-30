@@ -1,3 +1,22 @@
+<style>
+    .main-slider-four__image img {
+        height: 485px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    @media (min-width: 500px) {
+        .only-mobile {
+            display: none;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .hide-from-mobile {
+            display: none;
+        }
+    }
+</style>
 <section class="main-slider-four" id="home">
     <div class="container-fluid">
         <div class="main-slider-four__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
@@ -13,17 +32,22 @@
                 }'>
             <div class="item">
                 <div class="main-slider-four__image">
-                    <img src="assets/images/main-slider/main-slider-4-1.jpg" alt="slider">
+                    <img src="{{ asset('assets/images/foundation/slide0.jpg') }}" alt="slider">
                 </div><!-- /.main-slider-four__image -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="main-slider-four__image">
-                    <img src="assets/images/main-slider/main-slider-4-2.jpg" alt="slider">
+                    <img src="{{ asset('assets/images/foundation/slide2.jpg') }}" alt="slider">
                 </div><!-- /.main-slider-four__image -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="main-slider-four__image">
-                    <img src="assets/images/main-slider/main-slider-4-3.jpg" alt="slider">
+                    <img src="{{ asset('assets/images/foundation/slide3.jpg') }}" alt="slider">
+                </div><!-- /.main-slider-four__image -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="main-slider-four__image">
+                    <img src="{{ asset('assets/images/foundation/slide4.jpg') }}" alt="slider">
                 </div><!-- /.main-slider-four__image -->
             </div><!-- /.item -->
         </div><!-- /.main-slider-four__carousel -->
@@ -37,12 +61,18 @@
                 <!-- /.main-slider-four__title -->
                 <div class="main-slider-four__content__inner">
                     <p class="main-slider-four__text">We desire and encourage this generation to be self employed, increased source of income among our youth and eradicate poverty in our society.</p><!-- /.main-slider-four__text -->
-                    <a href="#" class="main-slider-four__btn">
+                    <a href="{{ route('volunteer') }}" class="main-slider-four__btn hide-from-mobile">
                         <span class="cleenhearts-one-icon-up-right-arrow"></span>
                     </a><!-- /.main-slider-four__btn -->
                 </div><!-- /.main-slider-four__content__inner -->
+                <div class="only-mobile mt-4">
+                    <a href="{{ route('volunteer') }}" class="cleenhearts-btn-two">
+                        <span class="icon-donate"></span>
+                        Register now
+                    </a><!-- /.thm-btn main-header__btn -->
+                </div>
             </div><!-- /.main-slider-four__content__left -->
-            <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="main-slider-four__circle-text circle-text video-popup">
+            <a href="https://www.youtube.com/watch?v=BWCQIe0UeCc" class="main-slider-four__circle-text circle-text video-popup">
                 <span class="circle-text__logo cleenhearts-one-icon-play"></span>
                 <!-- /.circle-text__logo -->
                 <div class="circle-text__curved-circle curved-circle">
