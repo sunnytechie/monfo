@@ -8,7 +8,7 @@
                     <p class="donate-page__text text-center">Your donation will help us to provide the necessary support to the Mommy Nches Foundation. We are committed to making a difference in the lives of every woman and young lady in the society.</p><!-- /.donate-page__text -->
                     <div class="donate-page__notice">
                         <i class="fas fa-exclamation-triangle"></i>
-                        <h5 class="donate-page__notice__text">Notice: <span>All donations are made to the monfo foundation</span></h5>
+                        <h5 class="donate-page__notice__text">Notice: <span>All donations are made to the Mommy Nches Foundation</span></h5>
                     </div><!-- /.donate-page__notice -->
 
                     <form action="{{ route('donation.payment') }}" method="POST" class="donate-page__form">
