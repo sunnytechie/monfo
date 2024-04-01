@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\MonfoDonation;
+use App\Models\MonfoTrainings;
+use Unicodeveloper\Paystack\Facades\Paystack;
 
 class WelcomeController extends Controller
 {
@@ -21,12 +24,30 @@ class WelcomeController extends Controller
             'last_name' => 'required',
             'email' => 'required|email',
             'phone' => 'required',
-            'donate_amount' => 'required',
+            'donate_amount' => 'required|numeric',
         ]);
 
-        dd($request->all());
+        $ref = Paystack::genTranxRef();
+        $donation = MonfoDonation::create([
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'donate_amount' => $request->donate_amount,
+            'reference' => $ref,
+        ]);
 
-        return redirect()->route('donation')->with('success', 'You have successfully donated');
+        $callback_url = route('donation.payment.callback');
+        $data = array(
+            "amount" => $request->donate_amount * 100,
+            "reference" => $ref,
+            "email" => $request->email,
+            "callback_url" => $callback_url,
+        );
+
+        return Paystack::getAuthorizationUrl($data)->redirectNow();
+
+        //return redirect()->route('donation')->with('success', 'You have successfully donated');
     }
 
     public function register() {
@@ -39,11 +60,15 @@ class WelcomeController extends Controller
             'email' => 'required|email',
             'phone' => 'required',
             'address' => 'required',
-            'training' => 'required',
+            'course' => 'required',
         ]);
 
-        dd($request->all());
+        try {
+            MonfoTrainings::create($request->all());
 
-        return redirect()->route('training')->with('success', 'You have successfully registered for the training');
+            return redirect()->route('training')->with('success', 'You have successfully registered for the training');
+        } catch (\Exception $e) {
+            return redirect()->route('training')->with('failed', 'An error occurred while registering for the training');
+        }
     }
 }

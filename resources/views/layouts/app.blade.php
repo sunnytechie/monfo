@@ -41,6 +41,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/cleenhearts.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/cleenhearts-one-icons/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/color-1.css') }}">
+
+    <!-- Include SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.min.css">
+
     <style>
         @media (max-width: 500px) {
             .main-header__logo img {
@@ -113,5 +117,27 @@
         <script src="{{ asset('assets/vendors/jquery-lettering/jquery.lettering.min.js') }}"></script>
         <!-- template js -->
         <script src="{{ asset('assets/js/cleenhearts.js') }}"></script>
+
+         <!-- Include SweetAlert2 JS (including the required dependencies) -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8.2.0/dist/promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        @if (session()->has('success'))
+            swal.fire({
+                'icon': 'success',
+                'title': 'Successful',
+                'text': "{{ session()->get('success') }}",
+            })
+        @endif
+
+        @if (session()->has('failed'))
+            swal.fire({
+                'icon': 'error',
+                'title': 'Failed',
+                'text': "{{ session()->get('failed') }}",
+            })
+        @endif
+    </script>
     </body>
 </html>
