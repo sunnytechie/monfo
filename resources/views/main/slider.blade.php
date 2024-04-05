@@ -81,7 +81,7 @@
             "radius": 98,
             "forceWidth": true,
             "forceHeight": true}'>
-                        your journey our commitment
+                        MONFO: I CAN MAKE IT. I CAN.
                     </div>
                 </div><!-- curved-circle end-->
             </a><!-- /.circle-text -->

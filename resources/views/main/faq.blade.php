@@ -18,7 +18,7 @@
             <h3 class="sec-title__title">Have Questions in Your Mind? <br> Get the Answers Now</h3><!-- /.sec-title__title -->
         </div><!-- /.sec-title -->
         <div class="row gutter-y-60 align-items-center">
-            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
+            {{-- <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
                 <div class="faq-two__image">
                     <div class="faq-two__image__inner">
                         <img src="{{ asset('assets/images/ics/ic1.jpg') }}" alt="faq">
@@ -28,8 +28,8 @@
                     </div><!-- /.faq-two__image__inner -->
                     <div class="faq-two__image__border"></div><!-- /.faq-two__image__border -->
                 </div><!-- /.faq-two__image -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
+            </div><!-- /.col-lg-6 --> --}}
+            <div class="col-lg-12 wow fadeInRight" data-wow-duration="1500ms">
                 <div class="cleenhearts-accordion" data-grp-name="cleenhearts-accordion">
                     <div class="accordion">
                         <div class="accordion-title">

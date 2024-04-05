@@ -15,8 +15,8 @@
                     <img src="{{ asset('assets/images/mummynches.jpg') }}" alt="about">
                     <div class="about-four__experience">
                         <h3 class="about-four__experience__year">30 +</h3><!-- /.about-four__experience__year -->
-                        <p class="about-four__experience__text">years of <br>
-                            experience</p><!-- /.about-four__experience__txt -->
+                        <p class="about-four__experience__text">years in <br>
+                            Ministry</p><!-- /.about-four__experience__txt -->
                     </div><!-- /.about-four__experience -->
                 </div><!-- /.about-four__image -->
             </div><!-- /.col-lg-6 -->
@@ -25,11 +25,13 @@
                     <div class="sec-title sec-title--two @@extraClassName">
                         <div class="sec-title__top">
                             <img src="assets/images/shapes/sec-title-s-1-1.png" alt="who we are">
-                            <h6 class="sec-title__tagline @@extraClassName">who we are</h6><!-- /.sec-title__tagline -->
+                            <h6 class="sec-title__tagline @@extraClassName">MONFO</h6><!-- /.sec-title__tagline -->
                         </div><!-- /.sec-title__top -->
-                        <h3 class="sec-title__title">Sisters' Fellowship <br> International</h3><!-- /.sec-title__title -->
+                        <h3 class="sec-title__title">Mommy Nches Foundation</h3><!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
-                    <p class="about-four__text">We are non church denominational woman organisation Piloted by Rev. Mrs. Nches Iredu A Life Couch to many women all over Nigeria and abroad.</p><!-- /.about-four__text -->
+                    <p class="about-four__text"><b>Vision Statement:</b> To help youths and women to become self-relevant and future employees of labour through capacity building and skill acquisition</p><!-- /.main-slider-four__text -->
+                    <p class="about-four__text"><b>Mission:</b> To reduce Unemployment and enhance abilities in youths and women</p><!-- /.main-slider-four__text -->
+                    {{-- <p class="about-four__text">We are non church denominational woman organisation Piloted by Rev. Mrs. Nches Iredu A Life Couch to many women all over Nigeria and abroad.</p><!-- /.about-four__text --> --}}
                     <ul class="about-four__list">
                         <li>
                             <span class="cleenhearts-one-icon-right"></span>
